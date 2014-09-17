@@ -99,13 +99,22 @@
                                     <action selector="sendMailBtnPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gzw-nW-No0"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3e-Wy-Pxt">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="messageLabel" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3e-Wy-Pxt">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="72" width="181" height="115"/>
+                                    <rect key="frame" x="16" y="72" width="181" height="79"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFD-ra-zkl">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="170" width="162" height="29"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -118,6 +127,7 @@
                                 <exclude reference="i3r-zQ-Iqd"/>
                                 <exclude reference="PaJ-r8-gvW"/>
                                 <exclude reference="A3e-Wy-Pxt"/>
+                                <exclude reference="pFD-ra-zkl"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -127,6 +137,7 @@
                                 <include reference="i3r-zQ-Iqd"/>
                                 <include reference="PaJ-r8-gvW"/>
                                 <include reference="A3e-Wy-Pxt"/>
+                                <include reference="pFD-ra-zkl"/>
                             </mask>
                         </variation>
                     </view>
@@ -137,6 +148,7 @@
                         <outlet property="enterNameTextField" destination="3r7-HF-ghU" id="wJ2-68-Ur9"/>
                         <outlet property="mailBtn" destination="PaJ-r8-gvW" id="Vtv-rU-rQ2"/>
                         <outlet property="messageLabel" destination="A3e-Wy-Pxt" id="eic-dt-mhq"/>
+                        <outlet property="nameLabel" destination="pFD-ra-zkl" id="Wsa-AL-En8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
