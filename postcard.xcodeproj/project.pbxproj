@@ -14,7 +14,7 @@
 		E254022A19C91471001F3317 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E254022819C91471001F3317 /* LaunchScreen.xib */; };
 		E254023619C91471001F3317 /* postcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E254023519C91471001F3317 /* postcardTests.swift */; };
 		E254024019C919F3001F3317 /* Isadora_Duncan_at_the_Portal_of_the_Parthenon__Edward_Steichen__1921.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E254023F19C919F3001F3317 /* Isadora_Duncan_at_the_Portal_of_the_Parthenon__Edward_Steichen__1921.jpeg */; };
-		E254024619C91F22001F3317 /* DSCF1470a-Edit.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E254024519C91F22001F3317 /* DSCF1470a-Edit.JPG */; };
+		E266EC8119C9C839008AFA3C /* DSCF1470a-Edit.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E266EC8019C9C839008AFA3C /* DSCF1470a-Edit.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 		E254023419C91471001F3317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E254023519C91471001F3317 /* postcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postcardTests.swift; sourceTree = "<group>"; };
 		E254023F19C919F3001F3317 /* Isadora_Duncan_at_the_Portal_of_the_Parthenon__Edward_Steichen__1921.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isadora_Duncan_at_the_Portal_of_the_Parthenon__Edward_Steichen__1921.jpeg; sourceTree = "<group>"; };
-		E254024519C91F22001F3317 /* DSCF1470a-Edit.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DSCF1470a-Edit.JPG"; sourceTree = "<group>"; };
+		E266EC8019C9C839008AFA3C /* DSCF1470a-Edit.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DSCF1470a-Edit.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 		E254021D19C91471001F3317 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E254024519C91F22001F3317 /* DSCF1470a-Edit.JPG */,
+				E266EC8019C9C839008AFA3C /* DSCF1470a-Edit.JPG */,
 				E254023F19C919F3001F3317 /* Isadora_Duncan_at_the_Portal_of_the_Parthenon__Edward_Steichen__1921.jpeg */,
 				E254021E19C91471001F3317 /* Info.plist */,
 			);
@@ -202,7 +202,7 @@
 				E254024019C919F3001F3317 /* Isadora_Duncan_at_the_Portal_of_the_Parthenon__Edward_Steichen__1921.jpeg in Resources */,
 				E254022A19C91471001F3317 /* LaunchScreen.xib in Resources */,
 				E254022719C91471001F3317 /* Images.xcassets in Resources */,
-				E254024619C91F22001F3317 /* DSCF1470a-Edit.JPG in Resources */,
+				E266EC8119C9C839008AFA3C /* DSCF1470a-Edit.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +413,7 @@
 				E254023B19C91471001F3317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E254023C19C91471001F3317 /* Build configuration list for PBXNativeTarget "postcardTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				E254023E19C91471001F3317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
